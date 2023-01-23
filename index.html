@@ -2,69 +2,70 @@
 <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
-<body>
+<body bgcolor="silver">
 <center>
 <div>
-<img src="kelinci.jpg" width="100%" height="35%">
+<img src="banner.png" width="100%">
 </div>
-<div class="w3-bar w3-orange">
+<div class="w3-bar w3-yellow">
  <button class="w3-bar-item w3-button" onclick="openKota('Welcome')">Home</button>
  <button class="w3-bar-item w3-button" onclick="openKota('About')">About Me</button>
- <button class="w3-bar-item w3-button" onclick="openKota('Top')">Top</button>
- <button class="w3-bar-item w3-button" onclick="openKota('Bottom')">Bottom</button>
- <button class="w3-bar-item w3-button" onclick="openKota('Left')">Left</button>
- <button class="w3-bar-item w3-button" onclick="openKota('Right')">Right</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('fam')">Family</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('litfam')">Little Family</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('house')">House Friend</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('school')">Senior High School Friend</button>
    <div class="w3-dropdown-hover">
-     <button class="w3-button"> Animasi </button>
+     <button class="w3-button"> Friend </button>
 	  <div class="w3-dropdown-content w3-bar-block w3-car-4">
-		<button class="w3-bar-item w3-button" onclick="openKota('Opacity')">Opacity</button>
-		<button class="w3-bar-item w3-button" onclick="openKota('Zoom')">Zoom</button>
-		<button class="w3-bar-item w3-button" onclick="openKota('Fading')">Fading</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Opacity')">First</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Zoom')">Second</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Fading')">Third</button>
 	  </div>
    </div>
 </div>
 <div id="Welcome" class="w3-container kota" style="display:block">
 <center>
-<h1>Welcome</h1><hr>
-Belajar membuat menu dan animasi
+<h1> Haiiii!!</h1>
 </div>
-<div id="Top" class="w3-container kota w3-animate-top" style="display:none">
- <h2>Animasi Top</h2>
- <img src="kucingg.jpg" width=400px>
- </div>
-<div id="Bottom" class="w3-container kota w3-animate-bottom" style="display:none">
- <h2>Animasi Bottom</h2>
- <img src="kucingg.jpg">
+
+<div id="About" class="w3-container kota w3-animate-zoom" style="display:none"><br>
+ <img src="me2.jpeg" width=200px><br>
+ <h3>Mutiara Fatiha - 10122018</h3>
+ Tanjung Balai Karimun, 05 Juni 2004<br>
+ Teknik Informatika 
 </div>
-<div id="Left" class="w3-container kota w3-animate-Left" style="display:none">
- <h2>Animasi Left</h2>
- <img src="kucingg.jpg">
+
+<div id="fam" class="w3-container kota w3-animate-top" style="display:none">
+ <h2>My Family</h2>
+ <img src="foto1.jpeg" width=800px>
 </div>
-<div id="Right" class="w3-container kota w3-animate-Right" style="display:none">
- <h2>Animasi Right</h2>
- <img src="kucingg.jpg">
+
+<div id="litfam" class="w3-container kota w3-animate-bottom" style="display:none">
+ <h2>My Little Fam</h2>
+ <img src="foto2.jpeg" width=600px>
 </div>
+
+<div id="house" class="w3-container kota w3-animate-Left" style="display:none"><br>
+ <img src="foto3.jpeg" width=800px>
+</div>
+
+<div id="school" class="w3-container kota w3-animate-Right" style="display:none">
+ <img src="foto4.jpeg">
+</div>
+
 <div id="Opacity" class="w3-container kota w3-animate-Opacity" style="display:none">
  <h2>Animasi Opacity</h2>
- <img src="kucingg.jpg">
+ <img src="foto5.jpeg" width=800px>
 </div>
+
 <div id="Zoom" class="w3-container kota w3-animate-Zoom" style="display:none">
  <h2>Animasi Zoom</h2>
- <img src="kucingg.jpg">
+ <img src="foto6.jpeg" width=800px>
 </div>
+
 <div id="Fading" class="w3-container kota w3-animate-Fading" style="display:none">
- <h2>Animasi Fadingt</h2>
- <img src="kucingg.jpg">
+ <h2>Animasi Fading</h2>
+ <img src="uhuy.jpeg" width=600px>
 </div>
-<script>
-function openKota(namakota) {
- var i;
- var x = document.getElementsByClassName("kota");
- for (i = 0; i < x.length; i++) {
- x[i].style.display = "none"; 
- }
- document.getElementById(namakota).style.display = "block"; 
-}
-</script>
 </body>
 </html>
