@@ -2,55 +2,129 @@
 <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
-<body bgcolor="silver">
-<center>
+<body bgcolor="rosybrown">
+<font face="Times New Roman">
 <div>
-<img src="banner.png" width="100%">
+<img src="b1.png" width="100%">
+</body>
 </div>
-<div class="w3-bar w3-yellow">
+
+<div class="w3-bar w3-white">
  <button class="w3-bar-item w3-button" onclick="openKota('Welcome')">Home</button>
  <button class="w3-bar-item w3-button" onclick="openKota('About')">About Me</button>
- <button class="w3-bar-item w3-button" onclick="openKota('fam')">Family</button>
- <button class="w3-bar-item w3-button" onclick="openKota('litfam')">Little Family</button>
- <button class="w3-bar-item w3-button" onclick="openKota('house')">House Friend</button>
- <button class="w3-bar-item w3-button" onclick="openKota('school')">Senior High School Friend</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('fam')">Disney</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('litfam')">Disney Princess</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('house')">Princess</button>
+ <button class="w3-bar-item w3-button" onclick="openKota('school')">Article</button>
    <div class="w3-dropdown-hover">
-     <button class="w3-button"> Friend </button>
+     <button class="w3-button"> Film </button>
 	  <div class="w3-dropdown-content w3-bar-block w3-car-4">
 		<button class="w3-bar-item w3-button" onclick="openKota('Opacity')">First</button>
 		<button class="w3-bar-item w3-button" onclick="openKota('Zoom')">Second</button>
 		<button class="w3-bar-item w3-button" onclick="openKota('Fading')">Third</button>
+		<button class="w3-bar-item w3-button" onclick="openKota('Top')">Third</button>
 	  </div>
    </div>
 </div>
+
 <div id="Welcome" class="w3-container kota" style="display:block">
 <center>
-<h1> Haiiii!!</h1>
+<font size="6">
+ Haiiii!!<br></font>
+Welcome to My Web
+</center>
 </div>
 
 <div id="About" class="w3-container kota w3-animate-zoom" style="display:none"><br>
- <img src="me2.jpeg" width=200px><br>
- <h3>Mutiara Fatiha - 10122018</h3>
- Tanjung Balai Karimun, 05 Juni 2004<br>
- Teknik Informatika 
+<center>
+<img src="me2.jpeg" width=200px><br>
+Mutiara Fatiha - 10122018<br>
+Tanjung Balai Karimun, 05 Juni 2004<br>
+Teknik Informatika<br>
+<a href="https://instagram.com/mtraftha?igshid=YmMyMTA2M2Y=" class="w3-button w3-circle s3-hover image-link">
+ <img src="instagram.svg" width=20px></a>
+<a href="https://www.facebook.com/mtraftha?mibextid=LQQJ4d" class="w3-button w3-circle s3-hover image-link">
+<img src="facebook.svg" width=20px></a>
+</center> 
 </div>
 
 <div id="fam" class="w3-container kota w3-animate-top" style="display:none">
- <h2>My Family</h2>
- <img src="foto1.jpeg" width=800px>
+<font size="6"> The Walt Disney Company </font>
+<br>
+ <p>The Walt Disney Company adalah perusahaan konglomerat di bidang hiburan dan media terbesar di dunia.<br>
+ Didirikan pada 16 Oktober 1923, perusahaan ini didirikan oleh Walt Disney dan Roy Oliver Disney dengan <br>
+ nama Disney Brothers Cartoon Studio. Pusatnya terletak di Burbank, California. 
+<a href="https://id.wikipedia.org/wiki/The_Walt_Disney_Company" style="text-decoration: none">
+<font color="blue">Wikipedia</font></a><br>
+<br>
+<b>Pendiri:</b><a href="https://www.google.com/search?sa=X&hl=id&sxsrf=AJOqlzWM-Zd3UbQ6tPk5iMrrSVZUTHg
+_Hg:1674755432670&q=Walt+Disney&si=AEcPFx6l3RvH8SFlhHZyn7jIc6m2bU9vmoFvFAMQv2WWSYjXNw9pjDcjGCNIjgz8v-
+XdafxYMhXvU__DwSTul4SEsZ8G3ZSSosfRgULwKFj2x0fBNX9Ipyrd8bcQofja1JslLzdmZ13hQvBe8tL3mFQ21WYEcYMY57qSFRtDW_
+T63ITydocql-lnivv4WJdzTu7DveZZwCWPalLXu0tNmvsdjwQhOxtBBf1osfEGbtE9UHeBnYal_hIOevrdyLn43x3ZfupH6Zdn&ved=
+2ahUKEwiZoJmV5uX8AhW8XGwGHaNUC0oQmxMoAXoECGcQAw&biw=1366&bih=625&dpr=1" 
+style="text-decoration: none"><font color="blue"> Walt Disney,</font></a>
+<a href="https://www.google.com/search?sa=X&hl=id&sxsrf=AJOqlzWM-Zd3UbQ6tPk5iMrrSVZUTHg_
+Hg:1674755432670&q=Roy+O.+Disney&si=AEcPFx5y3cpWB8t3QIlw940Bbgd-HLN-aNYSTraERzz0WyAsdPQCqmcDtJfLT2lm9UvQ4mTJiqe41
+-Vt5Qcd1P4KiyascLbTXvGi0yVQzH3kUTRuWlPvh8dZUZfHcAMr6WyOHLQf6mS_iIJUCqOd2j58YFOo_RPZc1CKW8E04QQ5NNeJshzLCKUVaNepsordSFqz
+-QtdfKMZWyNInvFhqmS9ya_SrSzLHSZkpkLuelsrb9tRSPwzUZVdp29jzr08mYTnUifYnCePul_b8VgvvuiYNlP9y1KPKg%3D%3D&ved=2ahUKEwiZoJmV5u
+X8AhW8XGwGHaNUC0oQmxMoAnoECGcQBA&biw=1366&bih=625&dpr=1" style="text-decoration: none"><font color="blue">Roy O. Disney</font></a><br>
+<b>CEO:</b><a href="https://www.google.com/search?sa=X&hl=id&sxsrf=AJOqlzWM-Zd3UbQ6tPk5iMrrSVZUTHg_Hg:1674755432670&q=Bob+Iger&si=AEcPF
+x5y3cpWB8t3QIlw940Bbgd-HLN-aNYSTraERzz0WyAsdL6RkD5Gqe5QY4rLRQiYx_9pbHMCOXyvr3lv8y9AcZgcGTkA-yCS-9hTnou4B3prEIM8tlNOhZwSFIM2KgSp092BNI0KA
+DWCNKrrcx6yQ16_2-BW5FUyUaN5hUm1QiE4gZlb-Bu9eJGd6XD1YuLCPuvI2S3O&ved=2ahUKEwiZoJmV5uX8AhW8XGwGHaNUC0oQmxMoAXoECGYQAw&biw=1366&bih=625&dpr=1"
+style="text-decoration: none"><font color="blue"> Bob Iger</font></a> (20 Nov 2022–)<br>
+<b>Didirikan:</b> 16 Oktober 1923, Los Angeles, California, Amerika<br>
+<b>Anak perusahaan:</b> Disney World, Toko Disney, Hulu, LAINNYA<br>
+<b>Kantor pusat:</b> Burbank, California, Amerika<br>
+<b>Harga saham:</b> DIS (NYSE)<br>
+US$108,<font color="green"> 03 -0,09 (-0,08%)</font><br>
+<font size="2">26 Jan, 11.56 EST - Penafian</font> 
 </div>
 
 <div id="litfam" class="w3-container kota w3-animate-bottom" style="display:none">
- <h2>My Little Fam</h2>
- <img src="foto2.jpeg" width=600px>
+<font size="6"> Putri Disney </font>
+<br>
+<p> Putri Disney adalah waralaba media yang dimiliki oleh The Walt Disney Company.<br>
+Diciptakan oleh kepala Disney Consumer Product Andy Mooney pada akhir 1990-an, waralaba<br> 
+ini menampilkan karakter-karakter utama wanita yang telah tampil dalam berbagai film animasi<br>
+Disney. <a href="https://id.wikipedia.org/wiki/Putri_Disney" style="text-decoration: none"><font color="blue">
+Wikipedia</font></a><br>
+<br>
+<b>Diciptakan oleh:</b><a href="https://www.google.com/search?hl=id&sxsrf=AJOqlzV_D6owwqqGh6uVEYRisWJFqH9BkA:
+1674756661692&q=Andy+Mooney&stick=H4sIAAAAAAAAAONgVuLSz9U3MCosSDKxXMTK7ZiXUqngm5-fl1oJAG6ShaEcAAAA&sa=X&ved=
+2ahUKEwjs4Z7f6uX8AhU3yDgGHQ3nA0sQmxMoAXoECHcQAw&biw=1366&bih=625&dpr=1" style="text-decoration: none"><font color="blue">
+Andy Mooney</font></a><br>
+<b>Karya asli:</b> Lisensi<br>
+<b>Komik:</b> Kilala Princess (Manga)<br>
+<a href="https://www.google.com/search?hl=id&sxsrf=AJOqlzV_D6owwqqGh6uVEYRisWJFqH9BkA:1674756661692&q=putri+disney+
+permainan+video&sa=X&ved=2ahUKEwjs4Z7f6uX8AhU3yDgGHQ3nA0sQ6BMoAHoECHQQAg&biw=1366&bih=625&dpr=1" style="text-decoration: none">
+<b>Permainan video:</b></a> Enchanted Journey<br>
 </div>
 
 <div id="house" class="w3-container kota w3-animate-Left" style="display:none"><br>
- <img src="foto3.jpeg" width=800px>
+<center>
+<img src="2.jpg" width=300px><br>
+<font size="5">
+1. Snow white<br>
+2. Cinderella<br>
+3. Aurora<br>
+4. Ariel<br>
+5. Belle<br>
+6. Jasmine<br>
 </div>
 
 <div id="school" class="w3-container kota w3-animate-Right" style="display:none">
- <img src="foto4.jpeg">
+<font size="4">
+1. Snow white<br></font>
+<font size="2">
+<p>Dalam bahasa Inggris, Snow White berarti salju putih, ini terbukti dari karakter sang<br>
+putri yang memang memiliki kulit seputih salju dan memiliki aura yang memancarkan keindahan<br> 
+atau kecantikan. Snow White juga digambarkan sebagai karakter putri yang suka kebersihan, mudah<br> 
+berteman dengan siapa saja, tabah, dan tidak ragu dalam memberikan kepercayaan kepada orang-orang<br>
+di sekitarnya. Dalam film animasi Disney berjudul “Snow White and The Seven Dwarfs”, Snow White <br>
+dikisahkan memiliki kecantikan yang tidak terkalahkan sampai membuat ibu tirinya merasa cemburu <br>
+dan ingin menyingkirkannya dengan berbagai cara, mulai dari membuangnya ke hutan sampai membuatnya <br>
+memakan apel beracun. Menurut penuturan Disney, selain cantik dan baik hati, Snow White juga memiliki <br>
+kemampuan untuk bisa berkomunikasi dengan banyak binatang di hutan.</p><br>
 </div>
 
 <div id="Opacity" class="w3-container kota w3-animate-Opacity" style="display:none">
